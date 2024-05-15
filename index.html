@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apae Home</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <img src="./src/images/logo apae caruaru.svg" alt="Logo da Apae">
+        </div>
+        <div class="row"></div>
+    </div>
+
+    <div class="main">
+        <div class="main-cards">
+            <div class="card">
+                <div class="card-figure eu_ouco">
+                    <img class="card_img" src="src/images/necessidades/estou-com-fome.jfif" alt="Eu ouço">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>ESTOU COM FOME</p>
+                </div>
+                <audio id="eu_ouco_player">
+                    <source src="src/audio/estou_ouvindo.mp3" type="audio/mp3">
+                </audio>
+            </div>
+                            
+            <div class="card eu_quero">
+                <div class="card-figure">
+                    <img class="card_img" src="src/images/necessidades/estou-com-sede.jfif" alt="Eu Quero">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>ESTOU COM SEDE</p>
+                </div>
+                <audio id="eu_quero_player">
+                    <source src="src/audio/eu_quero.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="card eu_sinto">
+                <div class="card-figure">
+                    <img class="card_img" src="src/images/necessidades/estou-cansado.jfif" alt="Eu sinto">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>ESTOU CANSADO</p>
+                </div>
+                <audio id="eu_sinto_player">
+                    <source src="src/audio/eu_sinto.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="card sim">
+                <div class="card-figure">
+                    <img class="card_img" src="src/images/necessidades/sim.jfif" alt="Eu vejo">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>SIM</p>
+                </div>
+                <audio id="eu_vejo_player">
+                    <source src="./src/audio/eu_vejo.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="card eu_gosto">
+                <div class="card-figure">
+                    <img class="card_img" src="src/images/necessidades/preciso-ir-ao-banheiro.jfif" alt="Eu gosto">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>PRECISO IR AO BANHEIRO</p>
+                </div>
+                <audio id="eu_gosto_player">
+                    <source src="src/audio/eu_gosto.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="card eu_penso">
+                <div class="card-figure">
+                    <img class="card_img" src="src/images/necessidades/quero-brincar.jfif" alt="Eu penso">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>QUERO BRINCAR</p>
+                </div>
+                <audio id="eu_penso_player">
+                    <source src="src/audio/eu_penso.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="card eu_vejo">
+                <div class="card-figure">
+                    <img class="card_img" src="src/images/necessidades/nao-me-sinto-bem.jfif" alt="Sim">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>NÃO ME SINTO BEM</p>
+                </div>
+                <audio id="sim_player">
+                    <source src="src/audio/sim.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            
+            <div class="card nao">
+                <div class="card-figure">
+                    <img class="card_img" src="src/images/necessidades/nao.jfif" alt="Não">
+
+                    <img class="audio-verde-img" src="./src/images/audio-verde.png" alt="audio-verde-img">
+                </div>
+                <div class="card-content">
+                    <p>NÃO</p>
+                </div>
+                <audio id="nao_player">
+                    <source src="src/audio/nao.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul class="footer-sections">
+            <div class="footer-sections-separation">
+                <a draggable="false" href="index.html">
+                    <li class="section NECESSIDADES"><p>Necessidades</p></li>
+                </a>
+                <a draggable="false" href="cores.html">
+                    <li class="section CORES"><p>Cores</p></li>
+                </a>
+                <a draggable="false" href="numeros.html">
+                    <li class="section NUMEROS"><p>Números</p></li>
+                </a>
+            </div>
+        </ul>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="src/js/app.js"></script>
+</body>
+</html>

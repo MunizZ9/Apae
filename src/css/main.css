@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    flex-wrap: wrap;
+    gap: 6em;
+    padding: 3em 0;
+}
+
+.main-cards-cores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1600px;
+    flex-wrap: wrap;
+    gap: 6em;
+    padding: 3em 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 240px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: #73B369 1px 5px 20px;
+    cursor: pointer;
+}
+
+.card-figure {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.audio-verde-img {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 185px;
+}
+
+.card-content {
+    background-color: #73B369;
+    color: #fff;
+    height: 35px;
+    width: 101%;
+    position: absolute;
+    top: 11.5em;
+    border-radius: 8px 8px 12px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Nomes dos Cards */
+a.eu_ouco{
+ cursor: pointer;    
+}
+
+.card_img{
+    width: 100%;
+    border-radius: 10px;
+}
