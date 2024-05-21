@@ -1,6 +1,6 @@
 .footer {
-    position:relative; /* Torna o footer posicionado em relação ao corpo */
-    bottom: -41px;
+    position: relative;
+    bottom: -40px;
     left: 0;
     width: 100%;
     display: flex;
