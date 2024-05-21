@@ -19,13 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Map audio IDs para as Image classes
     const audioImageMap = [
-        { audioId: "eu_ouco_player", imgClass: ".eu_ouco" },
-        { audioId: "eu_quero_player", imgClass: ".eu_quero" },
-        { audioId: "eu_sinto_player", imgClass: ".eu_sinto" },
-        { audioId: "eu_vejo_player", imgClass: ".eu_vejo" },
-        { audioId: "eu_gosto_player", imgClass: ".eu_gosto" },
-        { audioId: "eu_penso_player", imgClass: ".eu_penso" },
+        { audioId: "estou_com_fome_player", imgClass: ".estou_com_fome" },
+        { audioId: "estou_com_sede_player", imgClass: ".estou_com_sede" },
+        { audioId: "estou_cansado_player", imgClass: ".estou_cansado" },
         { audioId: "sim_player", imgClass: ".sim" },
+        { audioId: "preciso_ir_ao_banheiro_player", imgClass: ".preciso_ir_ao_banheiro" },
+        { audioId: "quero_brincar_player", imgClass: ".quero_brincar" },
+        { audioId: "nao_me_sinto_bem_player", imgClass: ".nao_me_sinto_bem" },
         { audioId: "nao_player", imgClass: ".nao" }
     ];
 
