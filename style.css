@@ -286,10 +286,21 @@ a.eu_ouco{
     position: relative;
     left: 3%;
     display: flex;
-    width: 300px;
+    width: 350px;
     column-gap: 5em;
 }
 
 .apoio-img {
     width: 150%;
+}
+
+.apoio1{
+    position: relative;
+    top: 0px;
+}
+
+.apoio2{
+    position: relative;
+    top: 9px;
+    width: 140%;
 }
